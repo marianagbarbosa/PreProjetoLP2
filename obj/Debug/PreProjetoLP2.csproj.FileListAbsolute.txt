@@ -10,3 +10,6 @@ C:\Users\Mari\Desktop\LP2\Atividade 2\PreProjetoLP2\PreProjetoLP2\obj\Debug\PreP
 C:\Users\Mari\Desktop\LP2\Atividade 2\PreProjetoLP2\PreProjetoLP2\obj\Debug\PreProjetoLP2.PagAluno.resources
 C:\Users\Mari\Desktop\LP2\Atividade 2\PreProjetoLP2\PreProjetoLP2\obj\Debug\PreProjetoLP2.PagFuncionario.resources
 C:\Users\Mari\Desktop\LP2\Atividade 2\PreProjetoLP2\PreProjetoLP2\obj\Debug\PreProjetoLP2.PagProfessor.resources
+C:\Users\Mari\Documents\GitHub\PreProjetoLP2\bin\Debug\PreProjetoLP2.exe.config
+C:\Users\Mari\Documents\GitHub\PreProjetoLP2\obj\Debug\PreProjetoLP2.exe
+C:\Users\Mari\Documents\GitHub\PreProjetoLP2\obj\Debug\PreProjetoLP2.pdb

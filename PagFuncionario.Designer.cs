@@ -40,7 +40,7 @@
             // 
             // btnAluno
             // 
-            this.btnAluno.Location = new System.Drawing.Point(331, 128);
+            this.btnAluno.Location = new System.Drawing.Point(264, 110);
             this.btnAluno.Name = "btnAluno";
             this.btnAluno.Size = new System.Drawing.Size(116, 23);
             this.btnAluno.TabIndex = 2;
@@ -49,7 +49,7 @@
             // 
             // btnDisciplina
             // 
-            this.btnDisciplina.Location = new System.Drawing.Point(331, 157);
+            this.btnDisciplina.Location = new System.Drawing.Point(264, 139);
             this.btnDisciplina.Name = "btnDisciplina";
             this.btnDisciplina.Size = new System.Drawing.Size(116, 23);
             this.btnDisciplina.TabIndex = 3;
@@ -58,7 +58,7 @@
             // 
             // btnProfessor
             // 
-            this.btnProfessor.Location = new System.Drawing.Point(331, 186);
+            this.btnProfessor.Location = new System.Drawing.Point(264, 168);
             this.btnProfessor.Name = "btnProfessor";
             this.btnProfessor.Size = new System.Drawing.Size(116, 23);
             this.btnProfessor.TabIndex = 4;
@@ -67,7 +67,7 @@
             // 
             // btnSala
             // 
-            this.btnSala.Location = new System.Drawing.Point(331, 215);
+            this.btnSala.Location = new System.Drawing.Point(264, 197);
             this.btnSala.Name = "btnSala";
             this.btnSala.Size = new System.Drawing.Size(116, 23);
             this.btnSala.TabIndex = 5;
@@ -76,8 +76,12 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.btnSala);
+            this.groupBox1.Controls.Add(this.btnProfessor);
             this.groupBox1.Controls.Add(this.btnEditar);
+            this.groupBox1.Controls.Add(this.btnDisciplina);
             this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Controls.Add(this.btnAluno);
             this.groupBox1.Location = new System.Drawing.Point(52, 17);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(659, 294);
@@ -97,7 +101,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(276, 74);
+            this.label1.Location = new System.Drawing.Point(276, 73);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(104, 13);
             this.label1.TabIndex = 0;
@@ -108,10 +112,6 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(762, 328);
-            this.Controls.Add(this.btnSala);
-            this.Controls.Add(this.btnProfessor);
-            this.Controls.Add(this.btnDisciplina);
-            this.Controls.Add(this.btnAluno);
             this.Controls.Add(this.groupBox1);
             this.Name = "PagFuncionario";
             this.Text = "Página do Funcionário";
