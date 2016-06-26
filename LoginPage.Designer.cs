@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginPage));
-            this.cbTipoUsuario = new System.Windows.Forms.ComboBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.linkEsqueceu = new System.Windows.Forms.LinkLabel();
@@ -39,31 +37,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // cbTipoUsuario
-            // 
-            this.cbTipoUsuario.DisplayMember = "Professor";
-            this.cbTipoUsuario.FormattingEnabled = true;
-            this.cbTipoUsuario.Items.AddRange(new object[] {
-            "Funcionário",
-            "Professor",
-            "Aluno"});
-            this.cbTipoUsuario.Location = new System.Drawing.Point(152, 202);
-            this.cbTipoUsuario.Name = "cbTipoUsuario";
-            this.cbTipoUsuario.Size = new System.Drawing.Size(140, 21);
-            this.cbTipoUsuario.TabIndex = 0;
-            this.cbTipoUsuario.Text = "Tipo de usuário...";
-            this.cbTipoUsuario.SelectedIndexChanged += new System.EventHandler(this.cbTipoUsuario_SelectedIndexChanged);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Book Antiqua", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(103, 202);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(45, 15);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Eu sou:";
             // 
             // label2
             // 
@@ -89,7 +62,7 @@
             // 
             this.linkEsqueceu.AutoSize = true;
             this.linkEsqueceu.Font = new System.Drawing.Font("Book Antiqua", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkEsqueceu.Location = new System.Drawing.Point(116, 299);
+            this.linkEsqueceu.Location = new System.Drawing.Point(116, 286);
             this.linkEsqueceu.Name = "linkEsqueceu";
             this.linkEsqueceu.Size = new System.Drawing.Size(176, 15);
             this.linkEsqueceu.TabIndex = 4;
@@ -125,7 +98,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(152, 256);
+            this.button1.Location = new System.Drawing.Point(152, 222);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(140, 23);
             this.button1.TabIndex = 8;
@@ -145,8 +118,6 @@
             this.Controls.Add(this.linkEsqueceu);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.cbTipoUsuario);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "LoginPage";
             this.Text = "Página inicial - Bem-vindo(a)! ";
@@ -156,9 +127,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.ComboBox cbTipoUsuario;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.LinkLabel linkEsqueceu;

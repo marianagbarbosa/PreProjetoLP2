@@ -33,8 +33,8 @@
             this.btnProfessor = new System.Windows.Forms.Button();
             this.btnSala = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.btnEditar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -76,9 +76,9 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.btnSala);
             this.groupBox1.Controls.Add(this.btnProfessor);
-            this.groupBox1.Controls.Add(this.btnEditar);
             this.groupBox1.Controls.Add(this.btnDisciplina);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.btnAluno);
@@ -87,16 +87,7 @@
             this.groupBox1.Size = new System.Drawing.Size(659, 294);
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Bem-vindo(a), \"Nome do Funcionário\"";
-            // 
-            // btnEditar
-            // 
-            this.btnEditar.Location = new System.Drawing.Point(576, 256);
-            this.btnEditar.Name = "btnEditar";
-            this.btnEditar.Size = new System.Drawing.Size(75, 23);
-            this.btnEditar.TabIndex = 1;
-            this.btnEditar.Text = "Editar Perfil";
-            this.btnEditar.UseVisualStyleBackColor = true;
+            this.groupBox1.Text = "Bem-vindo(a)!";
             // 
             // label1
             // 
@@ -107,6 +98,15 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Consulta e cadastro:";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(264, 226);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(116, 23);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "Relatórios";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // PagFuncionario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -114,7 +114,7 @@
             this.ClientSize = new System.Drawing.Size(762, 328);
             this.Controls.Add(this.groupBox1);
             this.Name = "PagFuncionario";
-            this.Text = "Página do Funcionário";
+            this.Text = "Administração ArtEduBr";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -128,7 +128,7 @@
         private System.Windows.Forms.Button btnProfessor;
         private System.Windows.Forms.Button btnSala;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button btnEditar;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button1;
     }
 }

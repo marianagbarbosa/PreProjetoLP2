@@ -49,6 +49,57 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddAluno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddAluno.Designer.cs">
+      <DependentUpon>AddAluno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddCurso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddCurso.Designer.cs">
+      <DependentUpon>AddCurso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddDisciplina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddDisciplina.Designer.cs">
+      <DependentUpon>AddDisciplina.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddProfessor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddProfessor.Designer.cs">
+      <DependentUpon>AddProfessor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditarAluno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditarAluno.Designer.cs">
+      <DependentUpon>EditarAluno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditarCurso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditarCurso.Designer.cs">
+      <DependentUpon>EditarCurso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditarDisciplina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditarDisciplina.Designer.cs">
+      <DependentUpon>EditarDisciplina.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditarProfessor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditarProfessor.Designer.cs">
+      <DependentUpon>EditarProfessor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="escola_de_musica3DataSet.cs">
+      <DependentUpon>escola_de_musica3DataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="escola_de_musica3DataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -66,6 +117,18 @@
     <Compile Include="PagAluno.Designer.cs">
       <DependentUpon>PagAluno.cs</DependentUpon>
     </Compile>
+    <Compile Include="PagCurso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PagCurso.Designer.cs">
+      <DependentUpon>PagCurso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PagDisciplina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PagDisciplina.Designer.cs">
+      <DependentUpon>PagDisciplina.cs</DependentUpon>
+    </Compile>
     <Compile Include="PagFuncionario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,11 +143,41 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AddAluno.resx">
+      <DependentUpon>AddAluno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddCurso.resx">
+      <DependentUpon>AddCurso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddDisciplina.resx">
+      <DependentUpon>AddDisciplina.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddProfessor.resx">
+      <DependentUpon>AddProfessor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditarAluno.resx">
+      <DependentUpon>EditarAluno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditarCurso.resx">
+      <DependentUpon>EditarCurso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditarDisciplina.resx">
+      <DependentUpon>EditarDisciplina.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditarProfessor.resx">
+      <DependentUpon>EditarProfessor.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LoginPage.resx">
       <DependentUpon>LoginPage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PagAluno.resx">
       <DependentUpon>PagAluno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PagCurso.resx">
+      <DependentUpon>PagCurso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PagDisciplina.resx">
+      <DependentUpon>PagDisciplina.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PagFuncionario.resx">
       <DependentUpon>PagFuncionario.cs</DependentUpon>

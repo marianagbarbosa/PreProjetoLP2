@@ -1,6 +1,6 @@
 ﻿namespace PreProjetoLP2
 {
-    partial class PagProfessor
+    partial class PagDisciplina
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PagProfessor));
+            this.linkVoltar = new System.Windows.Forms.LinkLabel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
@@ -47,10 +47,19 @@
             this.qtdeAluno = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Aprovacao = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnEditar = new System.Windows.Forms.Button();
-            this.linkVoltar = new System.Windows.Forms.LinkLabel();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
+            // 
+            // linkVoltar
+            // 
+            this.linkVoltar.AutoSize = true;
+            this.linkVoltar.Location = new System.Drawing.Point(567, -20);
+            this.linkVoltar.Name = "linkVoltar";
+            this.linkVoltar.Size = new System.Drawing.Size(34, 13);
+            this.linkVoltar.TabIndex = 4;
+            this.linkVoltar.TabStop = true;
+            this.linkVoltar.Text = "Voltar";
             // 
             // groupBox1
             // 
@@ -65,21 +74,21 @@
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.dataGridView1);
             this.groupBox1.Controls.Add(this.btnEditar);
-            this.groupBox1.Location = new System.Drawing.Point(13, 31);
+            this.groupBox1.Location = new System.Drawing.Point(23, 9);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(659, 294);
-            this.groupBox1.TabIndex = 0;
+            this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Gerenciamento de Professores";
+            this.groupBox1.Text = "Gerenciar Disciplinas";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(6, 36);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(248, 13);
+            this.label1.Size = new System.Drawing.Size(253, 13);
             this.label1.TabIndex = 13;
-            this.label1.Text = "Selecione um professor e escolha a ação desejada";
+            this.label1.Text = "Selecione ums disciplina e escolha a ação desejada";
             // 
             // button2
             // 
@@ -208,26 +217,15 @@
             this.btnEditar.Text = "Adicionar";
             this.btnEditar.UseVisualStyleBackColor = true;
             // 
-            // linkVoltar
-            // 
-            this.linkVoltar.AutoSize = true;
-            this.linkVoltar.Location = new System.Drawing.Point(630, 9);
-            this.linkVoltar.Name = "linkVoltar";
-            this.linkVoltar.Size = new System.Drawing.Size(34, 13);
-            this.linkVoltar.TabIndex = 2;
-            this.linkVoltar.TabStop = true;
-            this.linkVoltar.Text = "Voltar";
-            // 
-            // PagProfessor
+            // PagDisciplina
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(683, 337);
+            this.ClientSize = new System.Drawing.Size(699, 317);
             this.Controls.Add(this.linkVoltar);
             this.Controls.Add(this.groupBox1);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "PagProfessor";
-            this.Text = "Gerenciar Professores";
+            this.Name = "PagDisciplina";
+            this.Text = "Gerenciar Disciplinas";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
@@ -238,8 +236,17 @@
 
         #endregion
 
+        private System.Windows.Forms.LinkLabel linkVoltar;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button btnEditar;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn SemestreAno;
         private System.Windows.Forms.DataGridViewTextBoxColumn CdgDisciplina;
@@ -247,15 +254,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Sala;
         private System.Windows.Forms.DataGridViewTextBoxColumn qtdeAluno;
         private System.Windows.Forms.DataGridViewTextBoxColumn Aprovacao;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.LinkLabel linkVoltar;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnEditar;
     }
 }

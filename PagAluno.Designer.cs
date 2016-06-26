@@ -44,14 +44,19 @@
             this.Nota = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Faltas = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Situacao = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btnEditar = new System.Windows.Forms.Button();
             this.linkVoltar = new System.Windows.Forms.LinkLabel();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.gb_CaixaAluno.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // gb_CaixaAluno
             // 
+            this.gb_CaixaAluno.Controls.Add(this.button2);
+            this.gb_CaixaAluno.Controls.Add(this.button1);
+            this.gb_CaixaAluno.Controls.Add(this.button3);
             this.gb_CaixaAluno.Controls.Add(this.label7);
             this.gb_CaixaAluno.Controls.Add(this.label6);
             this.gb_CaixaAluno.Controls.Add(this.label5);
@@ -60,7 +65,6 @@
             this.gb_CaixaAluno.Controls.Add(this.label2);
             this.gb_CaixaAluno.Controls.Add(this.label1);
             this.gb_CaixaAluno.Controls.Add(this.dataGridView1);
-            this.gb_CaixaAluno.Controls.Add(this.btnEditar);
             this.gb_CaixaAluno.Location = new System.Drawing.Point(16, 25);
             this.gb_CaixaAluno.Name = "gb_CaixaAluno";
             this.gb_CaixaAluno.Size = new System.Drawing.Size(664, 298);
@@ -127,9 +131,9 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(18, 41);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(37, 13);
+            this.label1.Size = new System.Drawing.Size(231, 13);
             this.label1.TabIndex = 3;
-            this.label1.Text = "..........";
+            this.label1.Text = "Selecione um aluno e escolha a ação desejada";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // dataGridView1
@@ -178,15 +182,6 @@
             this.Situacao.HeaderText = "Situação";
             this.Situacao.Name = "Situacao";
             // 
-            // btnEditar
-            // 
-            this.btnEditar.Location = new System.Drawing.Point(567, 255);
-            this.btnEditar.Name = "btnEditar";
-            this.btnEditar.Size = new System.Drawing.Size(75, 23);
-            this.btnEditar.TabIndex = 0;
-            this.btnEditar.Text = "Editar Perfil";
-            this.btnEditar.UseVisualStyleBackColor = true;
-            // 
             // linkVoltar
             // 
             this.linkVoltar.AutoSize = true;
@@ -197,6 +192,33 @@
             this.linkVoltar.TabStop = true;
             this.linkVoltar.Text = "Voltar";
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(433, 255);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(121, 23);
+            this.button2.TabIndex = 15;
+            this.button2.Text = "Excluir";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(87, 255);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(121, 23);
+            this.button1.TabIndex = 14;
+            this.button1.Text = "Editar";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(264, 255);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(121, 23);
+            this.button3.TabIndex = 13;
+            this.button3.Text = "Adicionar";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
             // PagAluno
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -206,7 +228,7 @@
             this.Controls.Add(this.gb_CaixaAluno);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "PagAluno";
-            this.Text = "Área do Aluno";
+            this.Text = "Gerenciamento de Alunos";
             this.gb_CaixaAluno.ResumeLayout(false);
             this.gb_CaixaAluno.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
@@ -218,7 +240,6 @@
         #endregion
 
         private System.Windows.Forms.GroupBox gb_CaixaAluno;
-        private System.Windows.Forms.Button btnEditar;
         private System.Windows.Forms.LinkLabel linkVoltar;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dataGridView1;
@@ -234,5 +255,8 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button3;
     }
 }
